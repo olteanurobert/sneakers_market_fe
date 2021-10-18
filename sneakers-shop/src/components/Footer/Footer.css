@@ -1,0 +1,28 @@
+.footerContainer {
+  background-color: #222;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerUls li {
+  list-style-type: none;
+  color: #fff;
+  padding-bottom: 4px;
+}
+
+.footerUls {
+  padding: 0px;
+}
+
+.footerContainer div {
+  padding: 10px;
+}
+
+.footerContainer div ul strong {
+  font-weight: 500;
+  color: #d44039;
+  font-size: 1.286em;
+}
+.footerUlsLis {
+  display: flex;
+}

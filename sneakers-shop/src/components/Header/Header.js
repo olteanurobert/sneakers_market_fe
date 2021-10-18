@@ -1,7 +1,15 @@
 import React from "react";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { useHistory } from "react-router";
+import "./Header.css";
 
-function Header() {
+const Header = () => {
+  const history = useHistory();
+
+  const handleClickOnCart = () => {
+    history.push("/cartpage");
+  };
+
   return (
     <div id="headerId" className="headerClass">
       <div id="secondHeaderId" className="secondHeader">
@@ -10,7 +18,10 @@ function Header() {
             id="SecondHeaderRightContentId"
             className="secondHeaderRightContent"
           >
-            {/* <ShoppingCartRoundedIcon /> */}
+            <ShoppingCartRoundedIcon
+              className="cartIcon"
+              onClick={handleClickOnCart}
+            />
             <div>
               <span className="itemCount">
                 <em>0</em>
@@ -25,6 +36,6 @@ function Header() {
       </div>
     </div>
   );
-}
+};
 
 export default Header;

@@ -1,0 +1,175 @@
+.contactContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.contactLeftContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 10px 0 30px;
+  line-height: 3;
+}
+
+.contactLeftContainer div {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0 0 0 20px;
+  color: #222;
+  font-weight: 500;
+}
+
+.contactReturnare {
+  cursor: pointer;
+}
+
+.contactPlataLivare {
+  cursor: pointer;
+}
+
+.contactGarantie {
+  cursor: pointer;
+}
+
+.contactRightContainer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bucTitle {
+  color: #d44039;
+  display: flex;
+  justify-content: center;
+}
+
+.bucPlace {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bucPlaceIcon {
+  margin-right: 20px;
+}
+
+.bucTel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bucTelIcon {
+  margin-right: 20px;
+}
+
+.bucMail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bucMailIcon {
+  margin-right: 20px;
+}
+
+.bucSchedule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bucScheduleIcon {
+  margin-right: 20px;
+}
+
+.timTitle {
+  color: #d44039;
+  display: flex;
+  justify-content: center;
+}
+
+.timPlace {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timPlaceIcon {
+  margin-right: 20px;
+}
+
+.timTel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timTelIcon {
+  margin-right: 20px;
+}
+
+.timMail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timMailIcon {
+  margin-right: 20px;
+}
+
+.timSchedule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timScheduleIcon {
+  margin-right: 20px;
+}
+
+.clujTitle {
+  color: #d44039;
+  display: flex;
+  justify-content: center;
+}
+
+.clujPlace {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clujPlaceIcon {
+  margin-right: 20px;
+}
+
+.clujTel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clujTelIcon {
+  margin-right: 20px;
+}
+
+.clujMail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clujMailIcon {
+  margin-right: 20px;
+}
+
+.clujSchedule {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.clujScheduleIcon {
+  margin-right: 20px;
+}

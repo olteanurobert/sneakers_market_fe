@@ -1,0 +1,147 @@
+.orderDetailsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.orderLeftContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 10px 0 30px;
+  line-height: 3;
+}
+
+.orderLeftContainer div {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0 0 0 20px;
+  color: #222;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.orderRightContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.contTitleSpan {
+  color: #fff;
+  background-color: #d44039;
+  padding-bottom: 15px;
+}
+
+.contTitleSpan div {
+  font-weight: 500;
+  font-size: 1.778em;
+  line-height: 1em;
+  padding: 28px 0 10px 55px;
+}
+
+.persContact {
+  color: #fff;
+  background-color: #d44039;
+  height: 100px;
+  padding-bottom: 15px;
+}
+
+.persContact div {
+  font-weight: 500;
+  font-size: 1.778em;
+  line-height: 1em;
+  padding: 28px 0 0 55px;
+}
+
+.persContact span {
+  font-size: 0.778em;
+  padding: 0 0 0 55px;
+  margin-bottom: 5px;
+}
+
+.numeTel {
+  padding: 40px 0 30px 50px;
+  border: 1px solid #d4d4d4;
+}
+
+.mailPass {
+  background-color: #fff6cc;
+  padding: 40px 0px 40px 40px;
+  border: 1px solid #d4d4d4;
+}
+
+.mailPass span {
+  color: #d44039;
+}
+
+.adresaLivrareContainer {
+  border: 1px solid #d4d4d4;
+  padding: 40px 0 30px 50px;
+}
+
+.adresaLivrare em {
+  display: block;
+  font-size: 0.438em;
+  line-height: 1.286em;
+  color: #7f7f7f;
+  font-weight: 500;
+}
+
+.adresaLivrare {
+  font-size: 1.778em;
+  line-height: 1em;
+  color: #222;
+  font-weight: 500;
+  margin: 0 0 35px 0;
+}
+
+.detaliiFactura {
+  padding: 40px 0 30px 50px;
+  border: 1px solid #d4d4d4;
+}
+
+.detaliiFactura strong {
+  font-size: 1.778em;
+  line-height: 1em;
+  color: #222;
+  font-weight: 500;
+  margin: 0 0 35px 0;
+}
+
+.detaliiPlata {
+  padding: 40px 0 30px 50px;
+  border: 1px solid #d4d4d4;
+}
+
+.detaliiPlata strong {
+  font-size: 1.778em;
+  line-height: 1em;
+  color: #222;
+  font-weight: 500;
+  margin: 0 0 35px 0;
+}
+
+.detaliiPlata em {
+  display: block;
+  font-size: 0.838em;
+  line-height: 1.286em;
+  color: #7f7f7f;
+  font-weight: 500;
+}
+
+.continuaContainer {
+  display: flex;
+  border: 1px solid #d4d4d4;
+  margin-bottom: 50px;
+}
+
+.continuaButton {
+  display: flex;
+  background-color: #d44039;
+  font-weight: 500;
+  font-size: 1.333em;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 20px 20px 20px 20px;
+}

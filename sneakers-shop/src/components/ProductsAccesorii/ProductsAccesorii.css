@@ -1,0 +1,37 @@
+.products-containerAccesorii {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filters-titleAccesorii {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.filters-typeAccesorii {
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 5px;
+}
+
+.filter-entryAccesorii {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.selectedAccesorii {
+  color: red;
+}
+
+.MuiGrid-item {
+  margin: 10px !important;
+  box-sizing: border-box;
+}
+
+.MuiGrid-container {
+  flex-wrap: nowrap !important;
+}

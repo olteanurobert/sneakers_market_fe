@@ -1,0 +1,59 @@
+.garantieContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.garantieLeftContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 10px 0 30px;
+  line-height: 3;
+}
+
+.garantieLeftContainer div {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0 0 0 20px;
+  color: #222;
+  font-weight: 500;
+}
+
+.garantieRightContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.garantieContact {
+  cursor: pointer;
+}
+
+.garantiePlataLivrare {
+  cursor: pointer;
+}
+
+.garantieReturnare {
+  cursor: pointer;
+}
+
+.garantieTitle {
+  color: #d44039;
+  font-weight: 500;
+  font-size: 1.625em;
+  line-height: 1.077em;
+  padding: 35px 50px 35px 50px;
+  border: 1px solid #d4d4d4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: none;
+}
+
+.garantiePara {
+  border: 1px solid #d4d4d4;
+  padding: 35px 50px 35px 50px;
+  border-top: none;
+}
+
+.garantiePara p {
+  margin: 0 0 25px 0;
+  color: #7f7f7f;
+}

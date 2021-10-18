@@ -1,0 +1,26 @@
+.subHeaderDiv {
+  display: flex;
+  height: 60px;
+  background-color: #222;
+  color: #a6a6a6;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 500;
+}
+
+.shoesDiv {
+  cursor: pointer;
+}
+
+.haineDiv {
+  cursor: pointer;
+}
+
+.accesoriiDiv {
+  cursor: pointer;
+}
+
+.subheaderLogo img {
+  height: 42px;
+  cursor: pointer;
+}

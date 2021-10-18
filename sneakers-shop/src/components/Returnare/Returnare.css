@@ -1,0 +1,105 @@
+.returnareContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.returnareLeftContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 10px 0 30px;
+  line-height: 3;
+}
+
+.returnareLeftContainer div {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0 0 0 20px;
+  color: #222;
+  font-weight: 500;
+}
+
+.returnareRightContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.returnareContact {
+  cursor: pointer;
+}
+
+.returnarePlataLivare {
+  cursor: pointer;
+}
+
+.returnareGarantie {
+  cursor: pointer;
+}
+
+.returnareTitle {
+  color: #d44039;
+  font-weight: 500;
+  font-size: 1.625em;
+  line-height: 1.077em;
+  padding: 35px 50px 35px 50px;
+  border: 1px solid #d4d4d4;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: none;
+}
+
+.returnareConditii {
+  border: 1px solid #d4d4d4;
+  padding: 35px 50px 35px 50px;
+  border-top: none;
+}
+
+.returnareConditii h2 {
+  color: #000;
+  line-height: 1.1em;
+  font-weight: 500;
+  padding: 4px 0 5px 0;
+  margin: 0 0 20px 0;
+}
+
+.returnareConditii p {
+  margin: 0 0 25px 0;
+  color: #7f7f7f;
+}
+
+.returnareCe {
+  border: 1px solid #d4d4d4;
+  padding: 35px 50px 35px 50px;
+  border-top: none;
+}
+
+.returnareCe h2 {
+  color: #000;
+  line-height: 1.1em;
+  font-weight: 500;
+  padding: 4px 0 5px 0;
+  margin: 0 0 20px 0;
+}
+
+.returnareCe p {
+  margin: 0 0 25px 0;
+  color: #7f7f7f;
+}
+
+.returnareTine {
+  border: 1px solid #d4d4d4;
+  padding: 35px 50px 35px 50px;
+  border-top: none;
+}
+
+.returnareTine h2 {
+  color: #000;
+  line-height: 1.1em;
+  font-weight: 500;
+  padding: 4px 0 5px 0;
+  margin: 0 0 20px 0;
+}
+
+.returnareTine p {
+  margin: 0 0 25px 0;
+  color: #7f7f7f;
+}

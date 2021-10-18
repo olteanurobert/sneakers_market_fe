@@ -1,0 +1,23 @@
+.products-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filters-title {
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.filters-type {
+  padding-bottom: 15px;
+}
+
+.filter-entry {
+  cursor: pointer;
+}
+
+.selected {
+  color: red;
+}

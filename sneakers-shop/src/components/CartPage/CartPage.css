@@ -1,0 +1,318 @@
+.bigContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.leftContentContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 11px 10px 0 30px;
+  line-height: 3;
+}
+
+.leftContentContainer div {
+  border-bottom: 1px solid #d4d4d4;
+  padding: 0 0 0 20px;
+  color: #222;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.rightContentContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.topRight {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  color: #fff;
+  background-color: #d44039;
+}
+
+.cos {
+  font-size: 0.889em;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 60px;
+  padding: 0 0 0 50px;
+  cursor: pointer;
+}
+
+.stergeProduse {
+  font-size: 0.778em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.secondTopRight {
+  display: flex;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #d4d4d4;
+  padding: 20px 0 19px 0;
+}
+
+.sneakerImageCartPage {
+  padding: 0 14px 0 13px;
+  border-right: 1px solid #d4d4d4;
+}
+
+.nameOfSneaker {
+  height: 84px;
+  font-size: 1.778em;
+  line-height: 1.313em;
+  color: #222;
+  padding: 15px 45px 0 45px;
+  font-weight: 500;
+}
+
+.detailsOfSneaker {
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.778em;
+  line-height: 1.714em;
+  color: #7f7f7f;
+  margin: 0 0 4px 0;
+}
+
+.divOfCuloare {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxOfCuloare {
+  width: 110px;
+  height: 40px;
+  border: 1px solid #d6d6d6;
+  border-radius: 21px 21px 21px 21px;
+}
+
+.divOfMarime {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxOfMarime {
+  display: flex;
+  width: 110px;
+  height: 40px;
+  border: 1px solid #d6d6d6;
+  border-radius: 21px 21px 21px 21px;
+  font-size: 1.6em;
+  color: #7f7f7f;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+
+.divOfPret {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxOfPret {
+  text-align: center;
+  font-size: 1.667em;
+  line-height: 1.4em;
+  color: #222;
+  font-weight: 500;
+}
+
+.boxOfPret sup {
+  font-size: 50%;
+  top: -10px;
+  font-weight: 300;
+}
+
+.divOfCantitate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxOfCantitate {
+  width: 110px;
+  border: 1px solid #d6d6d6;
+  border-radius: 21px 21px 21px 21px;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.boxOfCantitate span {
+  font-size: 1.6em;
+  color: #7f7f7f;
+  font-weight: 500;
+}
+
+.cntDown {
+  font-size: 2em;
+  line-height: 40px;
+  color: #9a9a9a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cntUp {
+  font-size: 2em;
+  line-height: 40px;
+  color: #9a9a9a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.divOfTotal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxOfTotal {
+  font-size: 1.667em;
+  color: #222;
+  font-weight: 500;
+}
+
+.boxOfTotal sup {
+  font-size: 50%;
+  top: -10px;
+  font-weight: 300;
+}
+
+.thirdTopRight {
+  display: flex;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #d4d4d4;
+}
+
+.metodaTransport {
+  padding: 40px 50px 0 50px;
+  font-size: 0.889em;
+  line-height: 1.125em;
+  color: #222;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.curier {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 0 0 50px;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 50px;
+  text-decoration: none;
+  color: #222;
+  font-size: 0.889em;
+  line-height: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.curier span {
+  color: #d44039;
+}
+
+.totalPriceAndProducts {
+  display: flex;
+  border-left: 1px solid #d4d4d4;
+  background-color: #fff6cc;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.numarProduse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numarProduse span {
+  font-size: 0.889em;
+  line-height: 1.5em;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.numarProduse em {
+  font-size: 2.222em;
+  line-height: 1.05em;
+  color: #222;
+  letter-spacing: -2px;
+  padding: 15px 0 0 0;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.totalLei {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.totalLei span {
+  font-size: 0.889em;
+  line-height: 1.5em;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.totalLei em {
+  font-size: 2.778em;
+  line-height: 0.84em;
+  color: #d44039;
+  padding-top: 11px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.totalLei sup {
+  font-size: 50%;
+  color: #222;
+  font-weight: 300;
+}
+
+.fourthTopRight {
+  display: flex;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #d4d4d4;
+}
+
+.continueShopping {
+  font-size: 0.889em;
+  font-weight: 500;
+  color: #d44039;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.continueShopping div {
+  cursor: pointer;
+}
+
+.nextStep {
+  background-color: #d44039;
+  line-height: 90px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.333em;
+  color: #fff;
+  cursor: pointer;
+}
