@@ -23,7 +23,7 @@ const Contact = () => {
   };
 
   return (
-    <Grid container>
+    <Grid container className="gridContainer">
       <Grid xs={12} className="contactContainer">
         <Grid xs={2} className="contactLeftContainer">
           <div className="contactContact">Contact</div>
@@ -156,8 +156,6 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <br />
-          <br />
         </Grid>
       </Grid>
     </Grid>

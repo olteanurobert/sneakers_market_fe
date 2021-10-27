@@ -1,5 +1,4 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -7,7 +6,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <Grid xs={12} className="footerContainer">
+    <footer className="footerContainer">
       <div className="footersDivs">
         <ul className="footerUls">
           <strong>Serviciu clienți</strong>
@@ -63,7 +62,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-    </Grid>
+    </footer>
   );
 };
 

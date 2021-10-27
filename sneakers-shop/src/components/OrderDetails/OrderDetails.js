@@ -329,19 +329,15 @@ const OrderDetails = () => {
               />
             </form>
           </Grid>
-          <Grid className="detaliiPlataContainer">
-            <div className="detaliiPlata">
-              <strong>Detaliile plății</strong>
-              <em>Cum doresti sa platesti pentru comanda</em>
-            </div>
-          </Grid>
           <Grid xs={12} className="continuaContainer">
-            <Grid xs={7} className="continua"></Grid>
-            <Grid xs={5}>
-              <Button className="continuaButton" onClick={handleContinue}>
-                Continua
-              </Button>
-            </Grid>
+            <Button
+              variant="contained"
+              color="red"
+              size="large"
+              onClick={handleContinue}
+            >
+              Continuă
+            </Button>
           </Grid>
         </Grid>
       </Grid>

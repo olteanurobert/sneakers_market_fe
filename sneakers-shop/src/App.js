@@ -15,6 +15,7 @@ import Contact from "./components/Contact/Contact";
 import ProductsHaine from "./components/ProductsHaine/ProductsHaine";
 import ProductsAccesorii from "./components/ProductsAccesorii/ProductsAccesorii";
 import Footer from "./components/Footer/Footer";
+import MainPage from "./components/MainPage/MainPage";
 
 function App() {
   const [selectedCardData, setSelectedCardData] = useState(null);
@@ -27,6 +28,9 @@ function App() {
       <Header />
       <Subheader />
       <Switch>
+        <Route exact path="/mainPage">
+          <MainPage />
+        </Route>
         <Route exact path="/accesorii">
           <ProductsAccesorii setSelectedCardData={setSelectedCardData} />
         </Route>

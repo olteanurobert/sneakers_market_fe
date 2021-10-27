@@ -7,7 +7,7 @@ const CartPage = () => {
   const history = useHistory();
 
   const handleContinueShopping = () => {
-    history.push("/");
+    history.push("/mainPage");
   };
 
   const handleContinueToOrderDetails = () => {
@@ -45,7 +45,7 @@ const CartPage = () => {
   };
 
   return (
-    <Grid container>
+    <Grid container className="cartPageContainer">
       <Grid xs={12} className="bigContainer">
         <Grid xs={2} className="leftContentContainer">
           <div onClick={handleContinueContact}>Contact</div>

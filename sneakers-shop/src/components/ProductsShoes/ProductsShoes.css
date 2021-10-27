@@ -21,3 +21,11 @@
 .selected {
   color: red;
 }
+
+.MuiButtonBase-root .MuiAccordionSummary-root {
+  display: flex !important;
+}
+
+/* .MuiAccordionSummary-root {
+  display: flex;
+} */

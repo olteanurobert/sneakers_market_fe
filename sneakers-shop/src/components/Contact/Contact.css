@@ -1,3 +1,7 @@
+.gridContainer {
+  margin-bottom: 217px;
+}
+
 .contactContainer {
   display: flex;
   flex-direction: row;

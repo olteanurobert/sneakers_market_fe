@@ -61,6 +61,7 @@
 .numeTel {
   padding: 40px 0 30px 50px;
   border: 1px solid #d4d4d4;
+  border-bottom: none;
 }
 
 .mailPass {
@@ -76,6 +77,7 @@
 .adresaLivrareContainer {
   border: 1px solid #d4d4d4;
   padding: 40px 0 30px 50px;
+  border-bottom: none;
 }
 
 .adresaLivrare em {
@@ -97,6 +99,7 @@
 .detaliiFactura {
   padding: 40px 0 30px 50px;
   border: 1px solid #d4d4d4;
+  border-bottom: none;
 }
 
 .detaliiFactura strong {
@@ -107,41 +110,16 @@
   margin: 0 0 35px 0;
 }
 
-.detaliiPlata {
-  padding: 40px 0 30px 50px;
-  border: 1px solid #d4d4d4;
-}
-
-.detaliiPlata strong {
-  font-size: 1.778em;
-  line-height: 1em;
-  color: #222;
-  font-weight: 500;
-  margin: 0 0 35px 0;
-}
-
-.detaliiPlata em {
-  display: block;
-  font-size: 0.838em;
-  line-height: 1.286em;
-  color: #7f7f7f;
-  font-weight: 500;
-}
-
 .continuaContainer {
   display: flex;
+  margin-bottom: 10px;
   border: 1px solid #d4d4d4;
-  margin-bottom: 50px;
-}
-
-.continuaButton {
-  display: flex;
-  background-color: #d44039;
-  font-weight: 500;
-  font-size: 1.333em;
-  color: #fff;
+  background-color: #fff6cc;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   padding: 20px 20px 20px 20px;
+}
+
+.continuaContainer span {
+  color: #d44039;
 }

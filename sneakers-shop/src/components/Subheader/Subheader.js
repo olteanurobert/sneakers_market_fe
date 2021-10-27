@@ -18,7 +18,7 @@ const Subheader = () => {
   };
 
   const handleContinueToHome = () => {
-    history.push("/");
+    history.push("/mainPage");
   };
 
   return (

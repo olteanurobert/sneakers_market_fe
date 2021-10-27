@@ -1,7 +1,11 @@
+.cartPageContainer {
+  margin-bottom: 51px;
+}
+
 .bigContainer {
   display: flex;
   flex-direction: row;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .leftContentContainer {
@@ -39,7 +43,6 @@
   text-transform: uppercase;
   line-height: 60px;
   padding: 0 0 0 50px;
-  cursor: pointer;
 }
 
 .stergeProduse {
@@ -48,7 +51,6 @@
   justify-content: center;
   align-items: center;
   padding-right: 50px;
-  cursor: pointer;
 }
 
 .secondTopRight {
